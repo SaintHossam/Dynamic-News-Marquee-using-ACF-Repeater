@@ -1,0 +1,23 @@
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  direction: rtl;
+  white-space: nowrap;
+}
+
+.marquee-wrapper {
+  display: flex;
+  gap: 50px;
+  white-space: nowrap;
+  position: relative;
+  right: 100%;
+}
+
+.marquee-content {
+  font-size: 18px;
+  color: #333;
+  padding: 10px 20px;
+  color: #fff;
+  white-space: nowrap;
+}
